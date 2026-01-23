@@ -119,6 +119,19 @@ body {
     background: rgba(255, 255, 255, 0.05);
 }
 
+.project-link {
+    display: inline-block;
+    margin-top: 12px;
+    color: cyan;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.project-link:hover {
+    text-shadow: 0 0 12px cyan;
+}
+
+
 /* FOOTER */
 footer {
     text-align: center;
