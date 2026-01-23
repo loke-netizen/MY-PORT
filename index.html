@@ -4,122 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loke's Portfolio</title>
+    <title>Loke | Creative Developer</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 
 <body>
-    <!-- NAVBAR -->
-    <header>
-        <nav>
-            <div class="logo">Loke</div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="burger">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </nav>
-    </header>
 
-    <!-- HOME SECTION -->
-    <section id="home" class="home">
-        <div class="home-content">
-            <h1>Hi, I'm Loke</h1>
-            <p>A passionate Frontend Developer & Problem Solver</p>
-            <a href="#contact" class="btn">Hire Me</a>
+    <!-- CURSOR -->
+    <div class="cursor"></div>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1>Hi, I'm <span>Loke</span></h1>
+        <h2 class="typing"></h2>
+        <p class="hero-desc">
+            I don’t just write code — I build <b>digital experiences</b>.
+            My dream is to become a <b>top-level software engineer</b>
+            and create products people love.
+        </p>
+        <div class="hero-buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn outline">Contact Me</a>
         </div>
     </section>
 
-    <!-- ABOUT SECTION -->
-    <section id="about" class="about">
+    <!-- ABOUT -->
+    <section class="glass about">
         <h2>About Me</h2>
-        <div class="about-container">
-            <div class="about-img">
-                <img src="https://via.placeholder.com/250" alt="Loke">
-            </div>
-            <div class="about-text">
-                <p>Hello! I'm Loke, a BSc Computer Science student passionate about coding and creating web solutions. I
-                    enjoy turning ideas into interactive applications and exploring new technologies.</p>
-                <ul>
-                    <li><strong>Education:</strong> BSc Computer Science</li>
-                    <li><strong>Location:</strong> Thanjavur, India</li>
-                    <li><strong>Email:</strong> lokesh@example.com</li>
-                </ul>
-            </div>
-        </div>
+        <p>
+            I'm a Computer Science student who builds <b>clean, powerful and modern</b> web experiences.
+            I love turning ideas into interactive products.
+        </p>
     </section>
 
-    <!-- SKILLS SECTION -->
-    <section id="skills" class="skills">
+    <!-- SKILLS -->
+    <section class="skills">
         <h2>Skills</h2>
-        <div class="skills-container">
-            <div class="skill">
-                <h3>HTML</h3>
-                <div class="skill-bar"><span style="width: 95%"></span></div>
-            </div>
-            <div class="skill">
-                <h3>CSS</h3>
-                <div class="skill-bar"><span style="width: 90%"></span></div>
-            </div>
-            <div class="skill">
-                <h3>JavaScript</h3>
-                <div class="skill-bar"><span style="width: 85%"></span></div>
-            </div>
-            <div class="skill">
-                <h3>React</h3>
-                <div class="skill-bar"><span style="width: 70%"></span></div>
-            </div>
+        <div class="skill-grid">
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">JavaScript</div>
+            <div class="card">React</div>
+            <div class="card">Python</div>
+            <div class="card">Git</div>
         </div>
     </section>
 
-    <!-- PROJECTS SECTION -->
+    <!-- PROJECTS -->
     <section id="projects" class="projects">
         <h2>Projects</h2>
-        <div class="projects-container">
-            <div class="project-card">
-                <img src="https://via.placeholder.com/300" alt="Project 1">
-                <h3>Portfolio Website</h3>
-                <p>A modern responsive personal portfolio website.</p>
-                <a href="#" target="_blank" class="btn">View Project</a>
-            </div>
-            <div class="project-card">
-                <img src="https://via.placeholder.com/300" alt="Project 2">
-                <h3>Todo App</h3>
-                <p>A simple and interactive task manager application.</p>
-                <a href="#" target="_blank" class="btn">View Project</a>
-            </div>
-            <div class="project-card">
-                <img src="https://via.placeholder.com/300" alt="Project 3">
-                <h3>E-commerce Site</h3>
-                <p>An online store with cart and payment features.</p>
-                <a href="#" target="_blank" class="btn">View Project</a>
-            </div>
+
+        <div class="project-card">
+            <h3>Smart Portfolio</h3>
+            <p>Animated modern portfolio website</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Todo Pro</h3>
+            <p>Advanced task manager with JS</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Mini E-Commerce</h3>
+            <p>Product cart + UI design</p>
         </div>
     </section>
 
-    <!-- CONTACT SECTION -->
-    <section id="contact" class="contact">
-        <h2>Contact Me</h2>
-        <form id="contactForm">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn">Send Message</button>
-        </form>
+    <!-- CONTACT -->
+    <section class="glass contact">
+        <h2>Contact</h2>
+        <p>Email: <b>lokesh@example.com</b></p>
     </section>
 
-    <!-- FOOTER -->
-    <footer>
-        <p>&copy; 2026 Loke. All rights reserved.</p>
-    </footer>
+    <footer>© 2026 Loke | Built Different ⚡</footer>
+
 </body>
 
 </html>
