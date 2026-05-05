@@ -131,6 +131,16 @@ body {
     text-shadow: 0 0 12px cyan;
 }
 
+.project-status {
+    /* color: cyan; */
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #aaa; /* soft grey */
+    border: 1px solid #444;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
 
 /* FOOTER */
 footer {
